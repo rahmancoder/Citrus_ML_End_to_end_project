@@ -1,0 +1,2 @@
+Checking the Citrus Accuracy been Classify the Images or Not,
+If it can recognize or it can't , Have to be specific between thoose 9 class citrus plan diseases.

@@ -1,0 +1,2 @@
+Transfer Learning Model Selection for better Accuracy rate and Deployment Purpose choosing the Best Model Fit.
+(Inception V3, Mobilenet, Resnet etc)

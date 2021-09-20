@@ -1,0 +1,1 @@
+Basic CNN Model To Train the Dataset and checking the Best Accuracy Rate with Validation Accuracy.
