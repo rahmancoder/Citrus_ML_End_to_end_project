@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+Name: MD MUSTAFIZUR RAHMAN SAYEM
+QUANTUMAI
+Citrus Plant Diseases Classification Project
+ML MODEL WITH FLASK
+Year- 2021 (September)
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustafiz Citrus Plant Diseases Prediction</title>
+    <!-- Bootstrap CDN CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="mustafiz" type="image/x-icon">
+
+
+
+
+</head>
+
+<body>
+
+
+    <h2 class="text-center">Mustafiz Citrus Plant Diseases Let's Predict Citrus or Not Citrus?</h2>
+    <div class="text-center">
+        <img src="{{url_for('send_file', filename=image_file_name)}}" alt=""
+            style="max-width:400px; max-height:400px; margin-top:25px; margin-bottom:15px;">
+       <!-- I don't want to show file name -->
+	   <!-- <p>{{ image_file_name}}</p> -->
+        <h3><b><span class="bg-primary">
+                    {{ accuracy}} %
+                </span>is a <span class="bg-success">
+                    {{label}}
+
+                </span></b></h3>
+
+
+        <a href="/">Home Page</a>
+
+    </div>
+
+
+
+    <!-- JQUERY  anf Bootstrap Javascript CDN  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
